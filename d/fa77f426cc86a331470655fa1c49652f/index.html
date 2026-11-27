@@ -1,7 +1,7 @@
 <!doctype html>
 <html lang="ja">
   <head>
-<meta name="robots" content="noindex, nofollow">
+    <meta name="robots" content="noindex, nofollow">
     <meta charset="UTF-8" />
     
     <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover" />
@@ -17,8 +17,8 @@
     <link rel="icon" type="image/png" href="icons/icon-192.png" />
     <link rel="apple-touch-icon" href="icons/apple-touch-icon.png" />
     <title>野良のAIは、嘘の味が好き — nami × 双海</title>
-    <script type="module" crossorigin src="./assets/index-7hc937so.js"></script>
-    <link rel="stylesheet" crossorigin href="./assets/index-C6wKaLxU.css">
+    <script type="module" crossorigin src="./assets/index-edYoSCur.js"></script>
+    <link rel="stylesheet" crossorigin href="./assets/index-Dt_jYXe5.css">
   <link rel="manifest" href="./manifest.webmanifest"></head>
   <body>
     
@@ -150,8 +150,10 @@
         <div id="endrollPage" class="endroll-page" hidden>
           <div class="endroll-inner">
             <p class="endroll-label">エンドロール</p>
+            <p id="endrollEndingName" class="ending-name" hidden></p>
             <img id="endrollJacket" class="endroll-jacket" alt="収録曲のジャケット" draggable="false" hidden />
             <div class="endroll-lyrics" id="endrollLyrics"></div>
+            <button id="endrollReturnBtn" class="ending-return-btn" type="button" hidden>最後の選択に戻る</button>
           </div>
           
           <div class="sheet-footer">
@@ -169,6 +171,7 @@
         
         <div id="badEndPage" class="branch-page" hidden>
           <div class="branch-inner">
+            <p id="badEndName" class="ending-name" hidden></p>
             <p class="branch-label">―― ここで物語は終わる</p>
             <button id="badEndBackBtn" type="button" class="choice-option">選択肢へ戻る</button>
           </div>
@@ -179,6 +182,7 @@
             
             <img class="end-logo" src="icons/logo-text-vertical.svg" alt="サウンド単行本" />
             <p class="end-colophon">『野良のAIは、嘘の味が好き』（分岐版・試作）　著者：nami × 双海<br />朗読：AI音声（地の文「Charon」・野良の声「Despina」／Gemini 3.8 Flash）／音楽：手続き生成による自作曲・自作環境音（全章）／エンドロール曲：『安全運転で、またどうぞ』／形式：サウンド単行本／2026年11月 電子版</p>
+            <button id="endReturnBtn" class="ending-return-btn" type="button" hidden>最後の選択に戻る</button>
           </div>
           
           <div class="sheet-footer">
